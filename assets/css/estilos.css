@@ -2,6 +2,12 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* Navbar */
+
+.icon-perfil{
+  width: 48px;
+}
+
 /* Hero Section */
 
 #Hero-Section {
