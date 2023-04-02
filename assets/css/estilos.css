@@ -1,10 +1,16 @@
+/* Estilos Generales */
+
 body {
   font-family: "Raleway", sans-serif;
 }
 
+.text-rubik {
+  font-family: "Rubik Dirt", cursive;
+}
+
 /* Navbar */
 
-.icon-perfil{
+.icon-perfil {
   width: 48px;
 }
 
@@ -14,16 +20,34 @@ body {
   background-image: url("../img/bg-hero-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: max-content;
-}
-
-#Hero-Section h1 {
-  font-family: 'Rubik Dirt', cursive;
+  background-position: left;
 }
 
 #Hero-Section button:hover {
   color: black !important;
   border-color: black !important;
+}
+
+/* Acerca de Mi */
+
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3-alt {
+  color: #0059d7;
+}
+
+.fa-bootstrap {
+  color: #5d0dce;
+}
+
+.fa-git-alt{
+  color: #E44D30;
+}
+
+.fa-github {
+  color: black;
 }
 
 /* Mis trabajos */
@@ -47,8 +71,7 @@ body {
     font-weight: 400;
   }
 
-  .navbar-brand{
+  .navbar-brand {
     width: 100px;
   }
-
 }
